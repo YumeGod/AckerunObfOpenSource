@@ -1,0 +1,73 @@
+input: 1111.jar
+output: 1111122222.jar
+libs: []
+
+flow:
+  exceptions:
+    enabled: true
+    excluded: []
+    included: []
+    iterations: 1
+general:
+  strip:
+    enabled: true
+    excluded: []
+    included: []
+    iterations: 1
+strings:
+  tostring:
+    enabled: true
+    excluded: []
+    included: []
+    iterations: 1
+methods:
+  dynamic:
+    enabled: true
+    excluded: []
+    included: []
+    iterations: 1
+misc:
+  vars:
+    enabled: true
+    excluded: []
+    included: []
+    iterations: 1
+  inliner:
+    enabled: true
+    excluded: []
+    included: []
+    iterations: 1
+    maxPasses: 1000
+    remove-unused-methods: false
+  checksum:
+    enabled: false
+    excluded: []
+    included: []
+    iterations: 1
+    randomHolders: true
+    holders: []
+    targets:
+    reobf: true
+    method-name: random
+    reduced: false
+  packer:
+    enabled: false
+    excluded: []
+    included: []
+    iterations: 1
+    resource-name: '/'
+    class-name: ~/
+    class-super-name: random
+    reobf: true
+    forge: true
+natives:
+  constantpool:
+    enabled: true
+    excluded: []
+    included: []
+    iterations: 1
+  codehider:
+    enabled: false
+    excluded: []
+    included: []
+    iterations: 1

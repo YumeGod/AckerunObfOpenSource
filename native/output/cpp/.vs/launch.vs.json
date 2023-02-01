@@ -1,0 +1,13 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "dll",
+      "exe": "",
+      "project": "CMakeLists.txt",
+      "projectTarget": "Snake.dll (build\\lib\\Snake.dll)",
+      "name": "Snake.dll (build\\lib\\Snake.dll)"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+key: VkYp3s6v9y$B&E)H
+input: input.jar
+outputPath: output
+urlLoad: false
+url: http
+projectName: Snake
+customSuffix: NM$L
+customLoadPackage: YumeCloudObfuscator
+clinit_method_name: YumeCloudObfInit
+libPath: libs
+useAnnotation: false
+include: false
+includes: []
+excludes: []
